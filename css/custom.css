@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-3 {
+  flex: 1;
+  text-align: left;
+}
+
+.col-9 {
+  flex: 2;
+  text-align: right;
+}
+
+.img-logo {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+}
+
+.logo {
+  Width: 120px;
+  margin-top: 8px;
+}
+
+.img-full {
+  width: 100%;
+}
+
+.left-hero-text {
+  height: 100%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #ffb900;
+  border-color: #ffb900;
+  font-weight: 900;
+  fontfamily: Comic Neue;
+}
+
+.btn-primary:hover {
+  background-color: #b17b08;
+  border-color: #b17b08;
+}
+
+.left-hero-text h4 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffb900;
+}
+
+.left-hero-text h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 85px;
+}
+
+.left-hero-text p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 45px;
+  color: #919191;
+}
+
+.button-hero .btn {
+  font-family: Comic Neue;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#hero {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 140px;
+  height: 100%;
+}
+
+.wrapper-nav li {
+  list-style: none;
+}
+
+.wrapper-nav .list-nav {
+    margin-left: 130px;
+}
+
+
+.wrapper-nav li a {
+  color: #000;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  Line height: 58.51pxpx;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+.btn-warning {
+  Width: 100px;
+  Height: 40px;
+  border-radius: 20px;
+  /* margin-left: 220px; */
+}
+
+.btn-login {
+  background-color: #FFA500; 
+  color: #fff; 
+  border: none; 
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: -95px;
+}
+
+.logo {
+  width: 170px;
+  height: 75px;
+}
+
+/* service */
+.img-left {
+  width: 25rem;
+  height: 30rem;
+}
+
+.img-center {
+  width: 25rem;
+  height: 30rem;
+  background: #FFB900;
+  border-radius: 30px;
+}
+
+.img-right {
+  width: 25rem;
+  height: 30rem;
+  background: #FFB900;
+  border-radius: 30px;
+}
+
+.title-section {
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  /* line-height: 156px; */
+}
+
+.subtitle-section {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 78px;
+  color: #919191;
+}
+
+.text-atas {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-bawah {
+  font-family: Montserrat;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 30px;
+  color: #000000;
+}
+/* end service */
+
+/* nice service */
+#bungkus {
+  background-color: #FFB900;
+}
+
+.maps {
+  height: 40rem;
+  /* background-color: #fff;
+  border-radius: 20px; */
+}
+
+.text-maps {
+  font-family: Montserrat;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #000000;
+
+}
+
+.text-peta {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #000;
+  padding-top: 30px;
+}
+
+.text-nice{
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+.text-good{
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 510;
+  text-align: center;
+  line-height: 78px;
+  color: #919191;
+  margin-left: 200px;
+}
+/* end nice service*/
+
+/* mesin */
+.img-mesin {
+  height: 35rem;
+}
+
+.list-engine {
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #FFB900;
+}
+
+.list-mesin {
+  list-style: none;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #000;
+  padding-top: 30px;
+}
+
+.button-mesin {
+  margin-top: 40px;
+}
+
+  .btn-find {
+    height: 40px;
+    width: 220px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background: #FFB900;
+    border: none;
+    font-weight: bold;
+  }
+
+  .list-atas {
+    margin-left: 100px;
+  }
+  
+/* end mesin */ 
+
+/* footer */
+footer {
+  background-color: #FFB900; /* Ubah warna latar belakang sesuai kebutuhan */
+  color: white; /* Ubah warna teks sesuai kebutuhan */
+  padding: 20px 0;
+  padding-top: 10%;
+  border-radius: 87px 87px 0px 0px;
+}
+
+.paling-atas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.bungkus-footer {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.bagian-footer {
+  flex: 1;
+}
+
+#bagian-kiri {
+  text-align: left;
+  margin-top: 60px;
+}
+
+#bagian-kiri .sineru{
+  font-size: 100px;
+  font-family: poppins;
+  color: #000;
+}
+
+#bagian-kiri .siall {
+  fontfamily: Montserrat;
+  font-size: 17px;
+  font-weight: 900;
+  margin-top: -35px;
+  color: #000;
+}
+
+#bagian-tengah {
+  text-align: left;
+  margin-top: -2rem;
+}
+#bagian-tengah .siabout {
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #000;
+}
+
+#bagian-tengah .sipar {
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #000;
+}
+#bagian-kanan {
+  text-align: left;
+  margin-top: -2rem;
+}
+
+#bagian-kanan .sicontact {
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #000;
+}
+
+#bagian-kanan .siparag {
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #000;
+}
+/* end footer */
+
+#hamburger-menu {
+  /* display: none; */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 5px;
+  background-color: #000;
+  margin: 3px 0;
+}
+
+@media (max-width: 767px) {
+  .col-9 {
+    flex: 1;
+    text-align: center;
+    height: auto;
+    margin: auto;
+  }
+
+  .col-3 {
+    flex: 1;
+    text-align: center;
+    height: auto;
+  }
+
+  #nav-menu ul.wrapper-nav {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #fff; 
+    padding: 10px; 
+  }
+
+
+  #hamburger-menu.open {
+    display: none; 
+  }
+
+  .bar {
+    height: 3px;
+    background-color: #000;
+    margin: 3px 0;
+  }
+
+  #nav-menu .open {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    background-color: #000; 
+    z-index: 100;
+  }
+
+  #nav-menu .open .wrapper-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-menu .open .list-nav {
+    margin: 20px 0;
+  }
+
+  .col-lg-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-hero-text {
+    text-align: center; 
+  }
+
+  .left-hero-text h1 {
+    font-size: 50px;
+  }
+
+  .left-hero-text p {
+    font-size: 25px; 
+  }
+
+  .text-nice {
+    font-size: 40px;
+    text-align: center; 
+  }
+
+  .text-good {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .maps {
+    height: auto;
+    width: 100%;
+  }
+
+  .col-lg-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .list-engine {
+    font-size: 40px;
+  }
+
+  .list-mesin {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  footer {
+    padding-top: 5%;
+  }
+
+  .bagian-footer {
+    text-align: center; 
+    margin-top: 20px; 
+
+    .sineru {
+      font-size: 5px;
+    }
+
+    .siall {
+      font-size: 5px;
+    }
+
+    .siabout,
+    .sipar,
+    .sicontact,
+    .siparag {
+      font-size: 5px;
+    }
+  }
+}
